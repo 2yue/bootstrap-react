@@ -6,7 +6,7 @@ class Greeter extends Component{
     render() {
         return (
             <div>
-                {config.greetText}<Button bsStyle="success">213Success</Button>
+                {config.greetText}<Button bsStyle="success">22Success</Button>
             </div>
         );
     }
