@@ -19,7 +19,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "start":"webpack-dev-server"
+    "start":"webpack-dev-server --inline --hot"
   },
   "author": "zhangb",
   "license": "ISC"
