@@ -10,7 +10,7 @@ var port = process.env.PORT || 3000;
 app.use('/', require('./render/render'));
 
 if (require.main === module) {
-    console.log('App started goto - http://0.0.0.0:' + port);
+    console.log('App started goto - http://localhost:' + port);
     app.listen(port);
 }
 
